@@ -15,7 +15,7 @@ void addStudent() {
     struct Student s;
 
     printf("Enter Name: ");
-    scanf(" %[^\n]", s.name); // to allow space in name
+    scanf(" %[^\n]", s.name);
 
     printf("Enter Roll Number: ");
     scanf("%d", &s.roll);
